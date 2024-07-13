@@ -9,7 +9,7 @@ let box1 = animator.to('.swiper-box1'  ,  {
 
     transform : "translate( -100% , 0)" ,
 
-    // backgroundColor : 'blue'
+  
 
 }).pause()
 
@@ -23,7 +23,7 @@ let box3 = animator.to('.swiper-box3'  ,  {
 
     transform : "translate( 100% , 0)" ,
 
-    // backgroundColor : 'blue'
+  
 
 }).pause()
 

@@ -1,0 +1,90 @@
+
+/* //////////////////////////////////////////////////   font size for navbar  */
+html{
+
+    font-size: 10px;
+}
+
+@media screen and (max-width : 1600px) {
+
+    html{
+        font-size: 7px;
+    }
+    
+}
+
+
+@media screen and (max-width : 1000px) {
+
+    html{
+        font-size: 5px;
+    }
+    
+}
+
+
+@media screen and (max-width : 600px) {
+
+    html{
+        font-size: 3px;
+    }
+    
+}
+
+
+
+@media screen and (max-width : 320px) {
+
+    html{
+        font-size: 2px;
+    }
+    
+}
+
+/* //////////////////////////////////////////////////   font size for navbar  */
+
+
+
+
+
+
+#logo{
+    height: 100%;
+    flex-grow: 1;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo>img{
+
+    height: 100%;
+
+    filter: blur(3px);
+
+    transition: filter .2s linear;
+
+}
+
+
+
+
+
+
+
+
+#logo>img:hover{
+
+    filter: blur(0px);
+}
+
+
+.swiper-parent{
+
+    height: 100%;
+    flex-grow: 15;
+    /* background-color: pink; */
+
+}
