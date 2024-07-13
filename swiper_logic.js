@@ -64,7 +64,10 @@ function hide_navbar(){
 
 function toggle_navbar(event){
 
+      
+
       event.currentTarget.isopen = event.currentTarget.isopen ?? false
+      event.stopPropagation();
 
       if(!event.currentTarget.isopen){
           show_navbar()
