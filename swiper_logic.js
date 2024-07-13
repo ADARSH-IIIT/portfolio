@@ -36,7 +36,7 @@ let box2 = animator.to('.swiper-box2>div'  ,  {
 
     flexGrow : 1 ,
 
-    fontSize : '4rem' ,
+    fontSize : '3rem' ,
 
     color : 'white'
 
