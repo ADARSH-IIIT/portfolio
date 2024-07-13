@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+
+}
+
+
+html{
+
+    font-size: 10px;
+}
+
+
+
+@media screen and (max-width : 1800px) {
+
+    html{
+        font-size: 2px;
+    }
+    
+}
+
+
+
+@media screen and (max-width : 300px) {
+
+    html{
+        font-size: 1.5px;
+    }
+    
+}
+
+
+
+
+
+body{
+
+    background-color: black;
+
+    width: 100vw;
+
+
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: blue;
+
+    position: fixed ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+}
+
+footer{
+    width: 100vw;
+    height: 50vh;
+
+    background-color: yellow;
+}
+
+
+
+
+#logo{
+    height: 100%;
+    flex-grow: 1;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo>img{
+    /* height: 80%; */
+    width: 60%;
+
+    filter: blur(3px);
+
+    transition: filter .2s linear;
+
+}
+
+#logo>img:hover{
+
+    filter: blur(0px);
+}
+
+
+.swiper-parent{
+
+    height: 100%;
+    flex-grow: 15;
+    background-color: pink;
+
+}
+
+

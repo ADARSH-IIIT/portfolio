@@ -1,0 +1,103 @@
+
+
+
+
+.swiper-parent{
+
+
+
+    background-color: black ;
+
+    position: relative;
+ 
+
+
+}
+
+
+.swiper-box2{
+
+    position: absolute;
+    top: 0;
+    left: 0%;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(2, 2, 17);
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0%;
+}
+
+
+
+.swiper-box1{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: black;
+
+    z-index: 2;
+
+    clip-path: polygon(0 0, 100% 0%,  0% 100%);
+
+    /* transform: translateX(0%); */
+
+
+
+}
+
+.swiper-box3{
+
+    position: absolute;
+    top: 0%;
+    
+
+    height: 100%;
+    width: 100%;
+
+    background-color: black;
+
+    z-index: 2;
+
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100% );
+
+    /* transform: translateX(-10px); */
+
+   
+
+
+}
+
+
+.swiper-box2>div{
+
+    /* flex-grow:  .1; */
+
+
+    /* background-color: red; */
+    font-size: 0px;
+
+    font-weight: 800;
+
+    font-family: kanit ,  roboto;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+
+}
+
