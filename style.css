@@ -16,20 +16,43 @@ html{
 
 
 
-@media screen and (max-width : 1800px) {
+
+@media screen and (max-width : 1600px) {
 
     html{
-        font-size: 2px;
+        font-size: 7px;
+    }
+    
+}
+
+
+@media screen and (max-width : 1000px) {
+
+    html{
+        font-size: 5px;
     }
     
 }
 
 
 
-@media screen and (max-width : 300px) {
+
+
+
+@media screen and (max-width : 600px) {
 
     html{
-        font-size: 1.5px;
+        font-size: 3px;
+    }
+    
+}
+
+
+
+@media screen and (max-width : 320px) {
+
+    html{
+        font-size: 2px;
     }
     
 }
