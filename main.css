@@ -88,5 +88,5 @@ section>.myname{
 section>.basicinfo{
     height: 10%;
     width: 100%;
-    background-color: grey;
+    /* background-color: grey; */
 }
