@@ -1,0 +1,97 @@
+
+
+.cursor_overflow{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+
+    flex-wrap: wrap;
+    /* row-gap: -100px; */
+
+    
+
+}
+
+
+.adarsh{
+
+
+    /* height: 20%;
+    width: 40%; */
+    background-color: pink;
+
+}
+
+
+.dwivedi{
+
+
+    /* height: 20%;
+    width: 40%; */
+    background-color: pink;
+
+
+}
+
+
+
+
+.cursor_overflow>div>span{
+
+    color: black;
+
+    font-size: 100px;
+
+    font-family: kanit , roboto;
+
+    font-weight: 800;
+
+}
+
+
+
+
+@media screen and (max-width : 600px) {
+
+
+
+    .cursor_overflow>div>span{
+
+        font-size: 80px;
+
+    }
+
+    
+
+}
+
+@media screen and (max-width : 450px) {
+
+
+
+    .cursor_overflow>div>span{
+
+        font-size: 60px;
+
+    }
+
+    
+
+}
+
+@media screen and (max-width : 350px) {
+
+
+
+    .cursor_overflow>div>span{
+
+        font-size: 50px;
+
+    }
+
+    
+
+}

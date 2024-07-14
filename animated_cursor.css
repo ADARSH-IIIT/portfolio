@@ -6,6 +6,10 @@
     /* background-color: yellow; */
 
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 
 }
@@ -13,8 +17,8 @@
 .cursor_overflow{
     position: absolute;
     color: transparent ;
-    height: 100%;
-    width: 100%;
+   
+    width: 100%; 
 
 
     display: flex;
