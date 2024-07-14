@@ -55,7 +55,12 @@ section{
 
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: red ;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -70,5 +75,18 @@ footer{
 
 
 
+section>.myname{
+
+    height: 80%;
+    width: 100%;
+    background-color: pink  ;
+
+}
 
 
+
+section>.basicinfo{
+    height: 10%;
+    width: 100%;
+    background-color: grey;
+}
