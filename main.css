@@ -47,7 +47,7 @@ nav{
     justify-content: center;
     align-items: center;
 
-    cursor: pointer;
+    /* cursor: pointer; */
 
 }
 
@@ -77,7 +77,7 @@ footer{
 
 section>.myname{
 
-    height: 80%;
+    height: 65%;
     width: 100%;
     /* background-color: pink  ; */
 
@@ -86,7 +86,84 @@ section>.myname{
 
 
 section>.basicinfo{
-    height: 10%;
+    height: 15%;
     width: 100%;
     /* background-color: grey; */
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 5%; */
+}
+
+
+
+
+section>.basicinfo>div{
+
+    height: 30%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+
+
+section>.basicinfo>.box1{
+
+    font-family: kanit , roboto;
+    font-size: 3rem;
+    color: rgb(114, 113, 113);
+    font-weight: 600;
+}
+
+
+section>.basicinfo>.box3>i{
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+
+}
+
+
+@media screen and (max-width : 600px) {
+
+    section>.basicinfo>.box1{
+
+     
+        font-size: 5rem;
+      
+    }
+    
+    
+    section>.basicinfo>.box3>i{
+        font-size: 5rem;
+       
+    
+    }
+    
+    
+}
+
+@media screen and (max-width : 300px) {
+
+    section>.basicinfo>.box1{
+
+     
+        font-size: 10rem;
+      
+    }
+    
+    
+    section>.basicinfo>.box3>i{
+        font-size: 10rem;
+       
+    
+    }
+    
+    
 }
