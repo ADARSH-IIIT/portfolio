@@ -18,13 +18,17 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="myname.css">
     <link rel="stylesheet" href="animated_cursor.css">
+    <link rel="stylesheet" href="four_skills.css">
     <script src="script.js" defer ></script>
     <script src="swiper_logic.js" defer ></script>
     <script defer src="myname_gsap.js"></script>
 
     <script src="cursor.js" defer  type="module"></script>
+    <script src="four_skills.js" defer ></script>
 
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
 <body>
@@ -56,7 +60,7 @@
 
     <section id="page1">
 
-
+                <!-- in this section my name , basic info and animated particle cursor will come  -->
             <div class="myname">
                             <div class="cursor_parent">
 
@@ -98,12 +102,50 @@
 
                         <div class="box1">@ I am Adarsh Dwivedi from IIIT Gwalior</div>
                         <div class="box2"></div>
-                        <div class="box3"><i class="fa-solid fa-arrow-down"></i></div>
+                        <div class="box3"  onclick="scroll_page_start()"><i class="fa-solid fa-arrow-down"></i></div>
 
             </div>
 
         
 
+    </section>
+
+
+    <section id="page2"  class=" flex-row-center">
+
+        <!-- in this section all 4 skills are embeeded  -->
+        <div class="parent flex-row-center">
+
+            <div class="skill-child" id="skill1"  onmouseenter="start_skill_animator(event)"  onmouseleave="reverse_skill_animation(event)">
+                <div class="box1 flex-row-center" ><p>html</p></div>
+                <div class="box2 flex-row-center"><p>HTML, or HyperText Markup Language, is the standard markup language used to create web pages</p></div>
+                <div class="box3 flex-row-center"><p>html</p></div>
+            </div>
+
+
+            <div class="skill-child" id="skill2"  onmouseenter="start_skill_animator(event)"   onmouseleave="reverse_skill_animation(event)">
+                <div class="box1 flex-row-center" ><p>css</p></div>
+                <div class="box2 flex-row-center"><p>CSS stands for Cascading Style Sheets</p></div>
+                <div class="box3 flex-row-center"><p>css</p></div>
+            </div>
+
+
+            <div class="skill-child"  id="skill3"  onmouseenter="start_skill_animator(event)"   onmouseleave="reverse_skill_animation(event)">
+                <div class="box1 flex-row-center" ><p>js</p></div>
+                <div class="box2 flex-row-center"><p>JavaScript is a scripting or programming language that allows you to implement complex features on web page</p></div>
+                <div class="box3 flex-row-center"><p>js</p></div>
+            </div>
+
+
+            <div class="skill-child"   id="skill4"  onmouseenter="start_skill_animator(event)"    onmouseleave="reverse_skill_animation(event)">
+                <div class="box1 flex-row-center" ><p>react</p></div>
+                <div class="box2 flex-row-center"><p>React is a javascript library used to build user interfaces out of individual pieces called components</p></div>
+                <div class="box3 flex-row-center"><p>react</p></div>
+            </div>
+
+
+
+        </div>
     </section>
 
 

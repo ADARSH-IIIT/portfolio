@@ -3,6 +3,7 @@
     padding: 0;
 
     overflow-x: hidden;
+    /* overflow-y: auto; */
 
 }
 
@@ -32,6 +33,16 @@ body{
     align-items: center;
     flex-direction: column;
 
+    /* min-height: 100vh; */
+    /* height: 100vh; */
+    /* overflow: scroll; */
+
+    overflow: hidden;
+
+    /* overflow: scroll; */
+
+
+
 
 }
 
@@ -42,6 +53,8 @@ nav{
     /* background-color: blue; */
 
     position: fixed ;
+    /* left: 0; */
+    /* top: 0; */
 
     display: flex;
     justify-content: center;
@@ -49,9 +62,12 @@ nav{
 
     /* cursor: pointer; */
 
+    z-index: 10;
+    
+
 }
 
-section{
+#page1{
 
     width: 100vw;
     height: 100vh;
@@ -62,20 +78,38 @@ section{
     align-items: center;
     flex-direction: column;
 
+    overflow: hidden;
+    
+
 }
+
+
+
+#page2{
+    width: 100vw;
+    height: 50vh;
+
+    background-color: green;
+
+    
+    
+}
+
 
 footer{
     width: 100vw;
     height: 50vh;
 
     background-color: yellow;
+
+    
 }
 
 
 
 
 
-section>.myname{
+#page1>.myname{
 
     height: 65%;
     width: 100%;

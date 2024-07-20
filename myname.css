@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     /* row-gap: -100px; */
 
+
     
 
 }
@@ -51,6 +52,8 @@
 
     display: inline-block;
     color: rgb(4, 4, 24);
+
+    
 
 }
 

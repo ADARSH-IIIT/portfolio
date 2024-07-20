@@ -1,0 +1,194 @@
+*{
+    /* overflow: hidden; */
+}
+
+.flex-row-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#page2{
+    /* background-color: green; */
+}
+
+
+#page2>.parent{
+
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(0, 0, 0) 10%, rgb(1, 0, 24) 60%,  rgb(2, 4, 29) 100%);
+
+    flex-wrap: wrap;
+    gap: 10%;
+
+    /* padding: 5%; */
+   
+
+}
+
+
+
+
+
+.skill-child{
+
+  
+    height: 100px;
+    width: 100px;
+    /* background-color: green; */
+
+
+    position: relative;
+
+    transform: rotate(45deg);
+
+    border: 5px solid rgb(1, 1, 18);
+    border: 2px solid white;
+
+    border-radius: 15px;
+
+    opacity: 1;
+
+    overflow: hidden;
+
+
+}
+
+.skill-child>.box1 {
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    z-index: 2;
+
+    clip-path: polygon(0 0, 100% 0%, 0 100%);
+
+    /* transform: rotate(-45deg); */
+    background-color:  rgb(1, 1, 18);
+
+    
+
+
+}
+
+.skill-child>.box2{
+    /* background-color: pink; */
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+
+    overflow: hidden;
+
+   
+
+}
+
+.skill-child>.box3 {
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    z-index: 2;
+
+    clip-path: polygon( 100% 0%, 100% 100% ,  0 100%);
+
+    background-color:  rgb(1, 1, 18);
+
+}
+
+
+.skill-child>div>p{
+
+    transform: rotate(-45deg);
+
+    font-size: 3rem;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+
+
+
+.skill-child>.box2>p{
+    opacity: 0;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+}
+
+
+@media screen and (max-width : 600px) {
+
+
+
+    #page2>.parent{
+        /* gap: 30%; */
+    }
+    
+    .skill-child{
+    
+        height: 70px;
+        width: 70px;
+    }
+
+
+
+.skill-child>div>p{
+
+    font-size: 4rem;
+        
+    }
+
+}
+
+    @media screen and (max-width : 480px) {
+
+
+
+        #page2>.parent{
+            gap: 30%;
+
+            
+
+        }
+
+        #page2{
+            height: 35vh ;
+        }
+        
+        .skill-child{
+        
+            height: 70px;
+            width: 70px;
+        }
+            
+        }
+
+
+
+
+     @media screen and (max-width : 320px) {
+
+
+.skill-child>div>p{
+
+    font-size: 7rem;
+}
+        
+     }   

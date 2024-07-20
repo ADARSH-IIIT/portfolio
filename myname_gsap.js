@@ -1,7 +1,6 @@
 const listofallspan = document.querySelectorAll('.cursor_overflow>div>span' )
 
 
-console.log(listofallspan);
 
 
 
